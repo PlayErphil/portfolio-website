@@ -34,7 +34,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   width: 50%;
-
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

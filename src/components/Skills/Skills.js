@@ -21,16 +21,15 @@ const Skills = () => (
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <List>
-      <SecondaryBtn>JS</SecondaryBtn>
-      <SecondaryBtn>React</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
-      <SecondaryBtn>Back</SecondaryBtn>
+      <SecondaryBtn>JavaScript</SecondaryBtn>
+      <SecondaryBtn>React.js</SecondaryBtn>
+      <SecondaryBtn>HTML</SecondaryBtn>
+      <SecondaryBtn>CSS</SecondaryBtn>
+      <SecondaryBtn>C/C++</SecondaryBtn>
+      <SecondaryBtn>Java</SecondaryBtn>
+      <SecondaryBtn>Python</SecondaryBtn>
+      <SecondaryBtn>API</SecondaryBtn>
+      <SecondaryBtn>Data and Algorithms</SecondaryBtn>
 
       {/* <ListItem>
         <picture>
