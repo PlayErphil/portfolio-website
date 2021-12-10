@@ -30,19 +30,6 @@ const Skills = () => (
       <SecondaryBtn>Python</SecondaryBtn>
       <SecondaryBtn>API</SecondaryBtn>
       <SecondaryBtn>Data and Algorithms</SecondaryBtn>
-
-      {/* <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>*/}
     </List>
   </Section>
 );
