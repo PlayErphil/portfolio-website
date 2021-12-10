@@ -7,7 +7,10 @@ import {
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
-const data = [{ number: "Top 9%", text: "CCC Contest" }];
+const data = [
+  { achievement: "Top 9%", text: "CCC Contest" },
+  { achievement: "Honour Roll", text: "UCC Coding Competition" },
+];
 
 const Acomplishments = () => (
   <Section>
@@ -15,7 +18,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}`}</BoxNum>
+          <BoxNum>{`${card.achievement}`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

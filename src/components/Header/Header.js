@@ -61,7 +61,7 @@ const Header = () => (
       <SocialIcons href="https://google.com">
         <AiOutlineFilePdf size="3rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:reneleogp0305@gmail.com?subject=SendMail&body=Description">
+      <SocialIcons href="mailto:reneleogp0305@gmail.com">
         <AiOutlineMail size="3rem" />
       </SocialIcons>
     </Div3>
