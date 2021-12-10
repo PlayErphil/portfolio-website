@@ -19,11 +19,14 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import { LeftSection } from "../Hero/HeroStyles";
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionDivider divider />
+    <LeftSection>
+      <SectionTitle center>Projects</SectionTitle>
+    </LeftSection>
     <GridContainer>
       {projects.map((p, i) => {
         return (
