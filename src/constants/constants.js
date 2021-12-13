@@ -5,8 +5,8 @@ export const projects = [
       "Worked for DUC App as a junior developer. There I built the entire Web API Documentation page of the company. Also worked with the backend team creating the API endpoints",
     image: "/images/2.jpeg",
     tags: ["JavaScript", "HTML", "CSS", "Swagger", "Amazon AWS"],
-    code: "https://google.com",
-    visit: "https://google.com",
+    code: "https://github.com/PlayErphil/gitlab-mirror-api",
+    visit: "https://playerphil.github.io/gitlab-mirror-api/",
     id: 0,
   },
   {
