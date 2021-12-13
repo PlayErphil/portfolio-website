@@ -21,12 +21,12 @@ import {
   Span,
 } from "./HeaderStyles";
 
-const prefix = "";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH;
 
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href={prefix + "/"}>
         <a
           style={{
             display: "flex",
@@ -42,18 +42,18 @@ const Header = () => (
 
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href={prefix + "#projects"}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#skills">
+        <Link href={prefix + "#skills"}>
           <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link
-          href="/Resume.pdf"
+          href={prefix + "/Resume.pdf"}
           alt="alt text"
           target="_blank"
           rel="noopener noreferrer"

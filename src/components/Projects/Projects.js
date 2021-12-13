@@ -21,7 +21,7 @@ import {
 import { projects } from "../../constants/constants";
 import { LeftSection } from "../Hero/HeroStyles";
 
-const prefix = "";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH;
 
 const Projects = () => (
   <Section nopadding id="projects">
