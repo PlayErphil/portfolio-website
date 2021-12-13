@@ -21,6 +21,8 @@ import {
 import { projects } from "../../constants/constants";
 import { LeftSection } from "../Hero/HeroStyles";
 
+const prefix = "";
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider divider />
