@@ -9,6 +9,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import { Document } from "react-pdf";
 
 import {
   Container,
@@ -39,11 +40,6 @@ const Header = () => (
 
     <Div2>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
@@ -53,14 +49,22 @@ const Header = () => (
           <NavLink>Skills</NavLink>
         </Link>
       </li>
+      <li>
+        <Link
+          href="/Resume.pdf"
+          alt="alt text"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <NavLink>Résumé</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/PlayErphil">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
-        <AiOutlineFilePdf size="3rem" />
-      </SocialIcons>
+
       <SocialIcons href="mailto:reneleogp0305@gmail.com">
         <AiOutlineMail size="3rem" />
       </SocialIcons>

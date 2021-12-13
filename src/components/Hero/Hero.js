@@ -23,6 +23,7 @@ const Hero = (props) => (
           you will find my projects, résumé and more so make sure you check it
           out!
         </SectionText>
+
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
     </Section>

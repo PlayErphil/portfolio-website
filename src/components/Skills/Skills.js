@@ -29,7 +29,6 @@ const Skills = () => (
       <SecondaryBtn>Java</SecondaryBtn>
       <SecondaryBtn>Python</SecondaryBtn>
       <SecondaryBtn>API</SecondaryBtn>
-      <SecondaryBtn>Data and Algorithms</SecondaryBtn>
     </List>
   </Section>
 );
