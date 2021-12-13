@@ -10,9 +10,9 @@ on:
     branches: [master]
 
 jobs:
-  env:
-    NEXT_PUBLIC_BASE_PATH: /portfolio-website
   build:
+    env:
+      NEXT_PUBLIC_BASE_PATH: /portfolio-website
     runs-on: macos-latest
 
     strategy:
