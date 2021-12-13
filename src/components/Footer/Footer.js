@@ -20,13 +20,22 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:reneleogp0305@gmail.com">
+          <LinkItem
+            style={{
+              justifyContent: "center",
+            }}
+            href="mailto:reneleogp0305@gmail.com"
+          >
             reneleogp0305@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
 
-      <SocialIconsContainer>
+      <SocialIconsContainer
+        style={{
+          justifyContent: "center",
+        }}
+      >
         <SocialContainer>
           <SocialIcons href="https://github.com/PlayErphil">
             <AiFillGithub size="3rem" />
