@@ -56,7 +56,7 @@ const Header = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <NavLink>Résumé</NavLink>
+          <NavLink>Resume</NavLink>
         </Link>
       </li>
     </Div2>

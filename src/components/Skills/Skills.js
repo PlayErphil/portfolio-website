@@ -22,6 +22,7 @@ const Skills = () => (
     <SectionTitle>Skills</SectionTitle>
     <List>
       <SecondaryBtn>JavaScript</SecondaryBtn>
+      <SecondaryBtn>Node.js</SecondaryBtn>
       <SecondaryBtn>React.js</SecondaryBtn>
       <SecondaryBtn>HTML</SecondaryBtn>
       <SecondaryBtn>CSS</SecondaryBtn>
