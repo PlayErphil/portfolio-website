@@ -25,10 +25,20 @@ export const projects = [
     description:
       "Built a Telegram Crypto Bot that gives you real time data about the crypto market. The bot is written in python and uses livecoinwatch.com API",
     image: "/images/1.jpeg",
-    tags: ["Python", "API"],
+    tags: ["Python", "Telegram API"],
     code: "https://github.com/PlayErphil/crypto-telegram-bot",
     visit: "https://t.me/Live_crypto_info_bot",
     id: 2,
+  },
+  {
+    title: "Python Package for crypto information",
+    description:
+      "Built a python wrapper around LiveCoinWatch API. The wrapper is a pip python package with functions for all the endpoints.",
+    image: "/images/4.jpeg",
+    tags: ["Python", "API", "PyPi"],
+    code: "https://github.com/PlayErphil/pylivecoinwatch",
+    visit: "https://pypi.org/project/pylivecoinwatch/",
+    id: 3,
   },
 ];
 
