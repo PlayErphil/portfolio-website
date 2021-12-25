@@ -1,23 +1,12 @@
 export const projects = [
   {
-    title: "DUC App Web API",
+    title: "Python Package for crypto information",
     description:
-      "Worked for DUC App as a junior developer. There I built the entire Web API Documentation page of the company. Also worked with the backend team creating the API endpoints",
-    image: "/images/2.jpeg",
-    tags: ["JavaScript", "HTML", "CSS", "Swagger", "Amazon AWS"],
-    code: "https://github.com/PlayErphil/gitlab-mirror-api",
-    visit: "https://playerphil.github.io/gitlab-mirror-api/",
-    id: 0,
-  },
-  {
-    title: "Arduino to Arduino using Firebase.",
-    description:
-      "Internet of Things tutorial. Learn how to send sensor data from one Arduino to another using Firebase to display it onto an LCD.",
-    image: "/images/3.jpg",
-    tags: ["Arduino", "Firebase", "C++", "IOT"],
-    code: "https://github.com/PlayErphil/arduino2arduino-IOT",
-    visit:
-      "https://create.arduino.cc/projecthub/rene123456/send-sensor-data-from-one-arduino-to-another-using-firebase-c0b1b3",
+      "Built a python wrapper around LiveCoinWatch API. The wrapper is a pip python package with functions for all the endpoints.",
+    image: "/images/4.jpeg",
+    tags: ["Python", "API", "PyPi"],
+    code: "https://github.com/PlayErphil/pylivecoinwatch",
+    visit: "https://pypi.org/project/pylivecoinwatch/",
     id: 1,
   },
   {
@@ -31,14 +20,25 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Python Package for crypto information",
+    title: "DUC App Web API",
     description:
-      "Built a python wrapper around LiveCoinWatch API. The wrapper is a pip python package with functions for all the endpoints.",
-    image: "/images/4.jpeg",
-    tags: ["Python", "API", "PyPi"],
-    code: "https://github.com/PlayErphil/pylivecoinwatch",
-    visit: "https://pypi.org/project/pylivecoinwatch/",
+      "Worked for DUC App as a junior developer. There I built the entire Web API Documentation page of the company. Also worked with the backend team creating the API endpoints",
+    image: "/images/2.jpeg",
+    tags: ["JavaScript", "HTML", "CSS", "Swagger", "Amazon AWS"],
+    code: "https://github.com/PlayErphil/gitlab-mirror-api",
+    visit: "https://playerphil.github.io/gitlab-mirror-api/",
     id: 3,
+  },
+  {
+    title: "Arduino to Arduino using Firebase.",
+    description:
+      "Internet of Things tutorial. Learn how to send sensor data from one Arduino to another using Firebase to display it onto an LCD.",
+    image: "/images/3.jpg",
+    tags: ["Arduino", "Firebase", "C++", "IOT"],
+    code: "https://github.com/PlayErphil/arduino2arduino-IOT",
+    visit:
+      "https://create.arduino.cc/projecthub/rene123456/send-sensor-data-from-one-arduino-to-another-using-firebase-c0b1b3",
+    id: 4,
   },
 ];
 
