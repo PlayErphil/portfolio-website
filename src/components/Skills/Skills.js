@@ -1,12 +1,12 @@
-import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import React from 'react';
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
   SecondaryBtn,
-} from "../../styles/GlobalComponents";
+} from '../../styles/GlobalComponents';
 import {
   List,
   ListContainer,
@@ -14,7 +14,7 @@ import {
   ListParagraph,
   ListTitle,
   ListSkills,
-} from "./SkillsStyles";
+} from './SkillsStyles';
 
 const Skills = () => (
   <Section id="skills">
@@ -23,13 +23,12 @@ const Skills = () => (
     <List>
       <SecondaryBtn>JavaScript</SecondaryBtn>
       <SecondaryBtn>Node.js</SecondaryBtn>
-      <SecondaryBtn>React.js</SecondaryBtn>
+      <SecondaryBtn>Solidity</SecondaryBtn>
       <SecondaryBtn>HTML</SecondaryBtn>
       <SecondaryBtn>CSS</SecondaryBtn>
       <SecondaryBtn>C/C++</SecondaryBtn>
       <SecondaryBtn>Java</SecondaryBtn>
       <SecondaryBtn>Python</SecondaryBtn>
-      <SecondaryBtn>API</SecondaryBtn>
     </List>
   </Section>
 );

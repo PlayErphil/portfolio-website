@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 import {
   Section,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+} from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
+import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -19,7 +19,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
           I’m Rene Gonzalez a 13th-grade student who likes programming and
-          mathematics. Interested in crypto and machine learning. <br /> Here
+          mathematics. Interested in machine learning and crypto. <br /> Here
           you will find my projects, resume and more so make sure you check it
           out!
         </SectionText>
