@@ -3,7 +3,7 @@ export const projects = [
     title: 'Machine Learning project to predict the outcome of a game',
     description:
       'I implemented two machine learning algorithms to predicts the outcome of a League of Legends game: a deep neural network using keras and a gradient boosting using sklearn.',
-    image: '/images/ml.jepg',
+    image: '/images/ml.jpeg',
     tags: ['ML', 'Python', 'Keras', 'SKlearn'],
     code: 'https://github.com/PlayErphil/ML-Prediction-LoL',
     visit: 'https://github.com/PlayErphil/ML-Prediction-LoL',
