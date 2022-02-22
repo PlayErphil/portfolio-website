@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Machine Learning project to predict the outcome of a game',
+    description:
+      'I implemented two machine learning algorithms to predicts the outcome of a League of Legends game: a deep neural network using keras and a gradient boosting using sklearn.',
+    image: '/images/ml.png',
+    tags: ['ML', 'Python', 'Keras', 'SKlearn'],
+    code: 'https://github.com/PlayErphil/ML-Prediction-LoL',
+    visit: 'https://github.com/PlayErphil/ML-Prediction-LoL',
+    id: 1,
+  },
+  {
     title: 'Smart Contract for DeltaHacks',
     description:
       'Wrote and deployed a smart contract to an Ethereum local and test net for a hackathon project. The smart contract runs multiple elections at the same time. Also did the communication with the smart contract on the net with python.',
@@ -8,16 +18,6 @@ export const projects = [
     code: 'https://github.com/WSSSDC/Equalis-API',
     visit: 'https://devpost.com/software/equalis',
     id: 2,
-  },
-  {
-    title: 'Machine Learning Project to predict the outcome of a game',
-    description:
-      'I implemented two machine learning algorithms to predicts the outcome of a League of Legends game.',
-    image: '/images/ml.jpeg',
-    tags: ['ML', 'Deep Neural Network', 'GBOOST', 'Python', 'Keras', 'SKlearn'],
-    code: 'https://github.com/PlayErphil/ML-Prediction-LoL',
-    visit: 'https://github.com/PlayErphil/ML-Prediction-LoL',
-    id: 1,
   },
   {
     title: 'Python Package for crypto information.',
